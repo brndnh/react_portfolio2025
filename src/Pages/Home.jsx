@@ -8,7 +8,13 @@ function Home() {
         <>
             <Header />
             <main className="home">
-                I am the Home Page
+                <div className="container">
+                    <div className="grid">
+                        <div className="col-12">
+                            <h1>I am the Home Page</h1>
+                        </div>
+                    </div>
+                </div>
             </main>
             <Footer />
         </>
