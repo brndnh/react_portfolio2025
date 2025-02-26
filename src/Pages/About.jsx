@@ -1,18 +1,16 @@
 import Header from "../global/Header";
 import Footer from "../global/Footer";
 
-import "./Home.css";
-
-function Home() {
+function About() {
     return (
         <>
             <Header />
-            <main className="home">
-                I am the Home Page
+            <main>
+                I am the About Page
             </main>
             <Footer />
         </>
     );
 }
 
-export default Home;
+export default About;
