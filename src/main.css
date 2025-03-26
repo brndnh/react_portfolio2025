@@ -25,17 +25,78 @@ body {
     min-height: 10vh;
 }
 
+p {
+    margin-bottom: 15px;
+}
+
+.highlighted {
+    color: #EA596F;
+}
+
+strong {
+    font-weight: bold;
+}
+
 h1 {
     font-weight: bold;
     font-size: x-large;
+    margin-bottom: 15px;
 }
 
 h2,
 h3 {
+    margin-bottom: 10px;
     font-weight: bold;
     font-size: larger;
 }
 
+.divider {
+    width: 50%; 
+    margin: 0 auto; 
+    border: none; 
+    border-top: 1px solid #000; 
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.long-divider {
+    width: 80%; 
+    margin: 0 auto; 
+    border: none; 
+    border-top: 1px solid #000; 
+    margin-bottom: 3vh;
+}
+
+.work-filters {
+    display: flex;     
+    justify-content: center; 
+    height: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 3rem;
+    color: #EA596F;
+    font-weight: bold;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background: #EA596F;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: opacity 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* grid system */
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -90,7 +151,23 @@ h3 {
     grid-column: span 12;
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 0px) {
+
+    .logo {
+        display: none;
+    }
+
+    .header-menu {
+        padding-top: 40px;
+    }
+
+    .scroll-to-top {
+        display: none;
+    }
+    
+    .col-0-sm {
+        display: none;
+    }
 
     .col-1-sm {
         grid-column: span 1;
@@ -143,6 +220,18 @@ h3 {
 }
 
 @media screen and (min-width: 834px) {
+
+    .col-0-sm, .logo {
+        display: block;
+    }
+
+    .header-menu {
+        padding-top: 0px;
+    }
+
+    .scroll-to-top {
+        display: flex;
+    }
 
     .col-1-md {
         grid-column: span 1;

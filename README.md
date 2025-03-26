@@ -1,6 +1,12 @@
-run in terminal
+to run project:
 
-npm install
-npm i the-new-css-reset
-npm install react-router
-npm i react-ionicons
+1. navigate directory to project folder and install npm: 
+    npm install
+
+2. then, install the following:
+    npm i the-new-css-reset
+    npm install react-router
+    npm i react-ionicons
+
+3. run live server:
+    npm run dev
