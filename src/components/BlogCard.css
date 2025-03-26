@@ -1,0 +1,39 @@
+.blog-card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid;
+    text-align: left;
+}
+
+.blog-image {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.blog-content h3 {
+    font-weight: normal;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.blog-content p {
+    margin: 10px 0;
+    font-size: smaller;
+}
+
+.blog-date {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 8px;
+    font-style: italic;
+}

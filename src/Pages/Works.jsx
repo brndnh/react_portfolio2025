@@ -48,7 +48,7 @@ function Works() {
 
                                             <button className="view-project">
                                                 <NavLink
-                                                    to="/Works/Works_cc3"
+                                                    to="/works/works_cc3"
                                                     className={({ isActive }) => (isActive ? 'active-link' : '')}
                                                 >
                                                     <ArrowForwardCircleOutline color={"#000"} height="60px" width="60px" />
