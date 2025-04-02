@@ -1,6 +1,7 @@
 import firstImage from '../../assets/works_cc3.png';
 import "./../Works.css";
 
+import Breadcrumbs from '../../components/Breadcrumbs';
 import GoBackButton from "../../components/BackButton";
 
 function Works() {
@@ -16,7 +17,7 @@ function Works() {
                             <hr className="long-divider" />
 
                             <div>
-                            <GoBackButton />
+                            <Breadcrumbs />
                                 <h1 class="work-title">"BH Cringe Compilation 3"</h1>
                                 <p class="work-title-sub"><span class="highlighted"><strong>#misc</strong> | 3 min read</span></p>
                             </div>

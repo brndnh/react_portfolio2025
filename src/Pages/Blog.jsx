@@ -1,4 +1,5 @@
 import BlogCard from '../components/BlogCard'
+import placeholderBg from '../assets/placeholderbg.png'; // Import the image
 
 import "./Blog.css"
 
@@ -15,11 +16,20 @@ function Blog() {
                         <section>
                             <BlogCard
                                 title="I Have Got to Start a Blog!"
-                                desc="Sharing my journey in blogging and why I'm excited about it."
-                                image="../assets/placeholderbg.png"
+                                desc="sharing my journey in blogging and why I'm excited about it."
+                                image={placeholderBg}
                                 link="/blogs/250121"
                                 date="2025/01/21"
                             />
+
+                            <BlogCard
+                                title="Apex Legends is Bad! But Why?"
+                                desc="sharing my journey in blogging and why I'm excited about it."
+                                image={placeholderBg}
+                                link="/blogs/241127"
+                                date="2024/11/27"
+                            />
+
                         </section>
                     </div>
                 </div>

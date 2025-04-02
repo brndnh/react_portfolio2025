@@ -4,7 +4,7 @@ import { LogoInstagram, LogoGithub, MailOutline } from 'react-ionicons';
 function Footer() {
     return (
         <footer>
-            <div className="container">
+            <div className="container footer-container">
 
                 <div className="grid">
 
@@ -15,14 +15,11 @@ function Footer() {
                         <div className="works-footer">
                             <p className="copyright">c. 2025 taito</p>
                             <div className="social-icons">
-                                <a href="instagram.com/" target="_blank"><LogoInstagram color={"#000"} height="40px" width="40px" /></a>
-                                <a href="github.com/brndnh" target="_blank"><LogoGithub color={"#000"} height="40px" width="40px" /></a>
+                                <a href="https://instagram.com/" target="_blank"><LogoInstagram color={"#000"} height="40px" width="40px" /></a>
+                                <a href="https://github.com/brndnh" target="_blank"><LogoGithub color={"#000"} height="40px" width="40px" /></a>
                                 <a href="mailto:hxynhs@gmail.com" target="_blank"><MailOutline color={"#000"} height="40px" width="40px" /></a>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-12 col-4-lg">
-
                     </div>
 
                 </div>

@@ -1,5 +1,6 @@
 import GoBackButton from "../../components/BackButton";
 import homeHeaderImage from '../../assets/home_header.png'
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 
 function Blog250121() { 
@@ -8,14 +9,13 @@ function Blog250121() {
             <main>
                 <div className="container grid">
                 <div className="col-0-sm col-1-md col-2-lg bg-columns">
-                <GoBackButton />
                 </div>
 
                 <div className="col-12 col-10-md col-8-lg">
-
+                        <Breadcrumbs /> {/* Breadcrumbs above header */}
                         <section>
-                                                    <img class="header-image" src={homeHeaderImage} alt="" />
-                            <h1>I Have Got to Start a Blog!・25/01/21</h1>
+                            <img class="header-image" src={homeHeaderImage} alt="" />
+                            <h1>I Have Got to Start a Blog! ・ 25/01/21</h1>
                             <p>
                                 It's a Tuesday school afternoon and I'm kinda bored out of my mind, so I decided to finally hit that idea that's been bouncing around in the back of my head for quite some time.
                             </p>

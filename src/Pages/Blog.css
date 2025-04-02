@@ -18,3 +18,9 @@ main {
     flex-grow: 1;
     width: 100%;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust spacing between BlogCards */
+  }

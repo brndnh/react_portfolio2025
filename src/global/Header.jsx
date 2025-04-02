@@ -9,11 +9,11 @@ function Header() {
             <div className="container">
                 <div className="grid">
 
-                    <div className="col-1-sm col-2-md col-1">
+                    <div className="logo-container col-1-sm col-2-md col-2-lg">
                         <img className="logo" src={logo} alt="Logo" />
                     </div>
 
-                    <div className="col-11-sm col-9-md col-11 header-menu">
+                    <div className="col-11-sm col-9-md col-9-lg header-menu">
                         <nav>
                             <ul className="nav-list">
                                 <li>
@@ -34,10 +34,10 @@ function Header() {
                                 </li>
                                 <li>
                                     <NavLink
-                                        to="/blog"
+                                        to="/blogs"
                                         className={({ isActive }) => (isActive ? 'active-link' : '')}
                                     >
-                                        blog
+                                        blogs
                                     </NavLink>
                                 </li>
                                 <li>
