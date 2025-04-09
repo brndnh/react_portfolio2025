@@ -8,7 +8,6 @@ import fourthImage from '../assets/works_jsProject.png';
 import "./Works.css";
 
 function Works() {
-    // Track the selected filter.
     const [selectedFilter, setSelectedFilter] = useState('all');
 
     const worksData = [
@@ -111,7 +110,7 @@ function Works() {
                                 </nav>
                             </div>
 
-                            {/* Render filtered project cards wrapped in a NavLink */}
+                            {/* render filtered project cards wrapped in a navlink */}
                             {filteredWorks.map((work, index) => (
                                 <NavLink to={work.navLink} className="project-card-link" key={index}>
                                     <div className="project-card">
@@ -127,7 +126,8 @@ function Works() {
                                                 <p className="year">{work.year}</p>
                                             </div>
                                         </div>
-                                        {/* Arrow placed in a separate, absolute layer */}
+
+                                        {/* arrow placed in a separate, absolute layer */}
                                         <div className="arrow-layer">
                                             <ArrowForwardCircleOutline
                                                 color={"#000"}

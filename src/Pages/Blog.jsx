@@ -1,5 +1,5 @@
 import BlogCard from '../components/BlogCard'
-import placeholderBg from '../assets/placeholderbg.png'; // Import the image
+import placeholderBg from '../assets/placeholderbg.png';
 
 import "./Blog.css"
 
