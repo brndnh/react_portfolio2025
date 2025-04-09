@@ -27,6 +27,10 @@ h3 {
     margin-top: 20px;
 }
 
+.home-year {
+    align-self: flex-start;
+}
+
 .work-item {
     margin-left: 10px;
     margin-bottom: 15px;

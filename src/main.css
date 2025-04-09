@@ -8,7 +8,6 @@ header, footer, main {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
     /* background-color: #1A1A1E; */
 }
 
@@ -20,6 +19,7 @@ body {
     font-weight: 300;
     color: black;
     background-color: black;
+    text-wrap: pretty;
 }
 
 .container {
@@ -72,17 +72,14 @@ h3 {
     margin: 0 auto; 
     border: none; 
     border-top: 1px solid #000; 
-    margin-bottom: 3vh;
+    margin-bottom: 1rem;
 }
 
 .work-filters {
     display: flex;     
     justify-content: center; 
     height: 100%;
-    padding-top: 0.5rem;
-    padding-bottom: 3rem;
-    color: #EA596F;
-    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 .scroll-to-top {

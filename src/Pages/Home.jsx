@@ -14,11 +14,11 @@ function Home() {
                             <img class="header-image" src={homeHeaderImage} alt="" />
                             <h1>home</h1>
 
-                            <p>Hi! I'm Branden. I go by the username taito online, but feel free to refer me by either name. I am currently studying media / web design in Vancouver, BC.</p>
+                            <p>Hi! I'm Branden. I go by the username taito online, but feel free to refer me by either name. I have a quite a bit I'd be happy to share with you in the little time we have here, so let me tell you a bit more about myself.</p>
 
-                            <p>I have interests in motion design, front end web development, fundamentals of UI/UX design, and occasionally dabble in anime style illustration.</p>
+                            <p>I'd like to consider myself an ambitious individual. I have interests in visual design, motion design, front end web development, fundamentals of UI/UX design, and occasionally dabble in anime style illustration. My current life motto is finding magic in the mundane. </p>
 
-                            <p>My current life motto is finding magic in the mundane. I've always spent a lot of time online, playing competitive games ranging between FPS and rhythm games which by a little more than just chance, led me to where I am now.  </p>
+                            <p>I've always spent a lot of time online, playing competitive games ranging between FPS and rhythm games, which partially played a part in influencing the path towards where I am now.</p>
                         </section>
 
                         <hr className="divider" />
@@ -28,7 +28,7 @@ function Home() {
 
                             <div classname="works">
                                 <div className="work-year">
-                                    <h3 className="year">2024</h3>
+                                    <h3 className="home-year">2024</h3>
                                     <div className="work-item">
                                         <strong>“BH Cringe Compilation 3”</strong>
                                         <p>— Video Direction; Compositing, Effects</p>
@@ -44,7 +44,7 @@ function Home() {
                                 </div>
 
                                 <div className="work-year">
-                                    <h3 className="year">2023</h3>
+                                    <h3 className="home-year">2023</h3>
                                     <div className="work-item">
                                         <strong>Recreating “Geometry Dash” in Javascript</strong>
                                         <p>— Game Design on Web, Animation with JS</p>

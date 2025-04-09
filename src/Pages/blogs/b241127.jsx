@@ -11,7 +11,7 @@ function Blog241127() {
                     </div>
 
                     <div className="col-12 col-10-md col-8-lg">
-                        <Breadcrumbs /> {/* Breadcrumbs above header */}
+                        <div className="blog-breadcrumbs"><Breadcrumbs /> {/* Breadcrumbs above header */}</div>
                         <section>
                             <img class="header-image" src={homeHeaderImage} alt="" />
                             <h1>Apex Legends is a Bad Game! But Why?</h1>

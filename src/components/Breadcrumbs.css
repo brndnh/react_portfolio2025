@@ -1,7 +1,5 @@
-
-
 .breadcrumbs {
-    position: sticky;
+  position: sticky;
   list-style: none;
   display: flex;
   gap: 10px;
@@ -18,6 +16,15 @@
   color: black;
 }
 
-.breadcrumbs a:hover {
-  text-decoration: underline;
+.breadcrumbs a:hover  {
+  color: #EA596F;
+  transition: ease 0.2s;
+}
+
+.breadcrumbs li:last-child span {
+  color: #EA596F;
+}
+
+.blog-breadcrumbs {
+  
 }

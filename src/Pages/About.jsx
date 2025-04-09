@@ -19,7 +19,7 @@ function About() {
                                 <h1>about</h1>
 
                                 <p>
-                                    A bit about me; having grown up in the neighbourhood of Kensington Cedar Cottage, I am native to <span class="highlighted">Vancouver, BC</span>  and have a Vietnamese/ Chinese background, though I am only fluent in the former. I currently live life as a student at BCIT's downtown campus.
+                                    Having grown up in the neighbourhood of Kensington Cedar Cottage, I am native to <span class="highlighted">Vancouver, BC</span>  and have a Vietnamese/ Chinese background, though I am only fluent in the former. I currently live life as a student at BCIT's downtown campus.
                                 </p>
                                 {/* <img src={aboutFirstImage} alt="" /> */}
                                 {/* to replace with slider in the future */}

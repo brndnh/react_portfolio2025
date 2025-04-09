@@ -12,6 +12,7 @@ function Blog() {
                     <div className="col-12 col-10-md col-8-lg">
 
                         <h1>blogs</h1>
+                        <p>a notes folder i'll be updating periodically!</p>
 
                         <section>
                             <BlogCard
@@ -24,7 +25,7 @@ function Blog() {
 
                             <BlogCard
                                 title="Apex Legends is Bad! But Why?"
-                                desc="sharing my journey in blogging and why I'm excited about it."
+                                desc="a tangent on what the state of apex legends was at the time of writing."
                                 image={placeholderBg}
                                 link="/blogs/241127"
                                 date="2024/11/27"

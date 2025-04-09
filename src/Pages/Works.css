@@ -4,6 +4,14 @@
     height: 100%;
 }
 
+.work-divider {
+    width: 70%;
+    margin: 0 auto;
+    border: none;
+    border-top: 1px solid #000;
+    margin-bottom: 1rem;
+}
+
 .view-project {
     display: flex;
     align-items: end;
@@ -11,11 +19,12 @@
 
 .video-container {
     position: relative;
-    width: 100%; 
-    padding-bottom: 56.25%;  /* this keeps a 16:9 aspect ratio */
-    height: 0;  
-    max-width: 100%; 
-  }
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* this keeps a 16:9 aspect ratio */
+    height: 0;
+    max-width: 100%;
+}
 
 .video-container iframe {
     position: absolute;
@@ -34,11 +43,7 @@
 .card-footer {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
-}
-
-.year {
-    align-self: flex-start;
+    align-items: center;
 }
 
 .view-project {
@@ -50,7 +55,7 @@
     text-align: center;
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-top: 1rem;
 }
 
 .work-title-sub {
@@ -63,4 +68,87 @@
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
     padding-top: 2rem;
+}
+
+
+/* -----------------------
+   Project Cards Styling
+   ----------------------- */
+
+.project-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.project-card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+/* content styling */
+.image-container img {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.tag {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #EA596F;
+    margin-left: 0.5rem;
+}
+
+.description {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+/* card footer styling */
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+    padding-top: 0.5rem;
+}
+
+.year {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #999;
+}
+
+/* arrow button on card */
+.arrow-layer {
+    position: absolute;
+    top: 79%;
+    right: 1rem;
+    transform: translateY(-0%);
 }
