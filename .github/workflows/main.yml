@@ -2,6 +2,7 @@ on:
   push:
     branches: [ deploy ]
 name: 🚀 Deploy website on push
+
 jobs:
   web-deploy:
     name: 🚀 Deploy React
@@ -9,15 +10,21 @@ jobs:
     steps:
       - name: Get latest code
         uses: actions/checkout@v4
+
       - name: Use Node.js 20
         uses: actions/setup-node@v2
         with:
           node-version: '20'
-      - name: ⛏️Build Project
+
+      - name: ⛏️ Build Project
         run: |
           npm install
           npm run build
-      - name: 📁 Sync files
+
+      - name: 📦 Check dist contents
+        run: ls -al dist/
+
+      - name: 📁 Sync files to public_html
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_HOST }}
@@ -25,3 +32,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: "dist/"
           server-dir: "public_html/"
+          dangerous-clean-slate: true
+          verbose: true
