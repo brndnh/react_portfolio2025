@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router';
 import './BlogCard.css';
 
-import placeholderImage from '../assets/placeholderbg.png';
+// import placeholderImage from '../assets/placeholderbg.png';
 
 
 function BlogCard({ link, title, desc, image, date }) {
