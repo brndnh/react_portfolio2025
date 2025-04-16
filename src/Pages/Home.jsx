@@ -1,6 +1,7 @@
 import "./Home.css";
 import homeHeaderImage from '../assets/home_header.png'
 import homeHeaderImageAlt from '../assets/home_header_alt.png'
+import SkillSet from "../components/Skills";
 
 function Home() {
     return (
@@ -11,7 +12,7 @@ function Home() {
 
                     <div className="col-12 col-10-md col-8-lg">
                         <section>
-                        <picture>
+                            <picture>
                                 {/* When the screen width is 800px or less, use the alternative image */}
                                 <source media="(max-width: 768px)" srcSet={homeHeaderImageAlt} />
                                 <img className="header-image" src={homeHeaderImage} alt="Home header" />
@@ -20,10 +21,12 @@ function Home() {
 
                             <p>Hi! I'm Branden. I go by the username taito online, but feel free to refer me by either name. I have a quite a bit I'd be happy to share with you in the little time we have here, so let me tell you a bit more about myself.</p>
 
-                            <p>I'd like to consider myself an ambitious individual. I have interests in visual design, motion design, front end web development, fundamentals of UI/UX design, and occasionally dabble in anime style illustration. My current life motto is finding magic in the mundane. </p>
+                            <p>I'd like to consider myself an ambitious individual. I have interests in visual design, motion design, front end web development, fundamentals of UI/UX design, and occasionally dabble in anime style illustration. My current life motto is <span class="highlighted">finding magic in the mundane. </span> </p>
 
-                            <p>I've always spent a lot of time online, playing competitive games ranging between FPS and rhythm games, which partially played a part in influencing the path towards where I am now.</p>
+                            <p>I've always spent a lot of time online, playing competitive games ranging between FPS and rhythm games, which partially played a part in influencing the path towards where I am now. </p>
 
+                            <h2>my skillset:</h2>
+                            <SkillSet />
                         </section>
 
                         <hr className="divider" />
@@ -32,6 +35,9 @@ function Home() {
                             <h2>works</h2>
 
                             <div classname="works">
+                                <div className="work-year">
+                                </div>
+
                                 <div className="work-year">
                                     <h3 className="home-year">2024</h3>
                                     <div className="work-item">

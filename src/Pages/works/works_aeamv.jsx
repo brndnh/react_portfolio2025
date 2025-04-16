@@ -34,7 +34,7 @@ function Works() {
                                 <div className="project-journey">
                                     <section>
                                         <p>
-                                            Motion Graphics Term Project
+                                            My submission for a motion graphics final project!
                                         </p>                         
                                     </section>
                                 </div>

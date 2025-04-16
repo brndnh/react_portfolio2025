@@ -1,8 +1,6 @@
-import SkillSet from "../components/Skills";
-
 import aboutHeaderImage from "../assets/about_header.png";
-import aboutSecondImage from "../assets/about_centralpark.png";
-import aboutThirdImage from "../assets/about_roundmirror.png"
+import aboutPhotoshopImage from "../assets/about_photoshop.jpg"
+import aboutSelfieImage from "../assets/about_roundmirror.png"
 import aboutFooterImage from "../assets/about_header2.png"
 
 function About() {
@@ -31,35 +29,28 @@ function About() {
                                 </p>
 
                                 <p>
-                                    I want to try my best to always be a person who is open minded and <span class="highlighted">willing to work with change</span>, establishing a strong sense of communication and trust.
+                                    I want to try my best to always be a person who is open minded and <span class="highlighted">willing to work with change</span>, establishing a sense of communication and trust.
                                 </p>
 
-                                <h2>my skillset</h2>
-                                <SkillSet />
+                                <img src={aboutPhotoshopImage} alt="screenshot of a photoshop piece created back in 2017." />
 
                                 <p>
-                                    I want to be remembered for my displays of (hopefully) memorable works that reflect passion, and my image as a person beyond the screen through good communication.
-
-                                    When you are passionate about what you do, it doesn't feel like work. As someone who is currently studying in the field of creative works and design, I hope to be constantly learning new things and inspiring others with what I am able to output from my studies.
+                                    Throughout my high school years, I spent much of my free time (gaming, and) studying how to use creative tools, and excelled in working with media works such as <span class="highlighted">video editing and photography</span> / photoshop thinking it was only a side hobby. When I realized I had built a foundation of transferable skills (and after a painful year of doing computer science), I decided to make the switch of <span class="highlighted">pursuing my high school passions</span>, leading to what I am doing currently.
                                 </p>
-
-                                <p>
-                                    Throughout my high school years, I spent much of my free time (gaming, and) studying how to use creative tools, and excelled in working with media works such as <span class="highlighted">video editing and photography</span> / photoshop thinking it was only a side hobby.
-                                </p>
-
-                                <p>
-                                    When I realized I had built a foundation of transferable skills (and after a painful year of doing computer science), I decided to make the switch of <span class="highlighted">pursuing my high school passions</span>, leading to what I am doing currently.
-                                </p>
-
-                                <img src={aboutSecondImage} alt="" />
 
                                 <p>
                                     I'd like to believe that I've always had an interest in doing creative works somewhere in the back of my mind, but never really committed to the full push of acting on it until much more recently. Influenced through a combination of a <span class="highlighted">long history</span> with gaming, interest in <span class="highlighted">anime style art</span> and by extension, <span class="highlighted">design works</span> I've come across on <span class="highlighted">Twitter</span> and <span class="highlighted">YouTube</span>, I was able to roughly chart out this future path of doing creative works for myself. Besides, I think working in design just seems really cool overall!
                                 </p>
 
-                                <p>My current life motto is <span class="highlighted">finding magic in the mundane.</span></p>
+                                <p>
+                                    I want to be remembered for my displays of (hopefully) memorable works that reflect passion, and my image as a person beyond the screen through good communication.
+                                </p>
 
-                                <img src={aboutThirdImage} alt="" />
+                                <p>
+                                    When you are passionate about what you do, it doesn't feel like work. As someone who is currently studying in the field of creative works and design, I hope to be constantly learning new things and inspiring others with what I am able to output from my studies.
+                                </p>
+
+                                <img src={aboutSelfieImage} alt="" />
 
                                 <p>What does taito mean? <br></br>
                                     <strong>台頭 (taitō) —</strong> rise of; appearance of; raising one's head; coming to power; becoming famous; (being in the) forefront; prominence.
