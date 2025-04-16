@@ -55,7 +55,22 @@
 }
 
 /* prevents lines from appearing on work filter on smaller screens */
+@media screen and (max-width: 800px) {
+    .nav-list-adj li:not(:last-child)::after {
+        content: "";
+        margin-left: 10px;
+    }
+}
+
 @media screen and (max-width: 768px) {
+    body {
+        font-size: .9rem;
+    }
+
+    h1, h2, p {
+        margin-bottom: 0.01rem;
+    }
+
     .nav-list-adj li:not(:last-child)::after {
         content: "";
         margin-left: 1px;
@@ -63,6 +78,6 @@
 
     .arrow-layer {
         display: none;
-      }
-    
+    }
+
 }

@@ -3,7 +3,9 @@ import "./../Works.css";
 import Breadcrumbs from '../../components/Breadcrumbs';
 import GoBackButton from "../../components/BackButton";
 
-import firstImage from '../../assets/travelpage_main.png';
+import headerImage from '../../assets/travelpage_main.png';
+import workImage from "../../assets/travelpage_work.png";
+import outroImage from "../../assets/travelpage_outro.png"
 
 function Works() {
     return (
@@ -20,12 +22,12 @@ function Works() {
                             <div>
                                 <Breadcrumbs />
                                 <h1 class="work-title">Responsive Travel Blog Page</h1>
-                                <p class="work-title-sub"><span class="highlighted"><strong>#frontend</strong> | 3 min read</span></p>
+                                <p class="work-title-sub"><span class="highlighted"><strong>#frontend</strong> | 2 min read</span></p>
                             </div>
 
-                            <div className="">
-                                <div className="">
-                                    <img src={firstImage} alt="Home Screen" />
+                            <div>
+                                <div className="image-container">
+                                    <img src={headerImage} alt="collection of screenshots featuring what the site looks like" />
                                 </div>
                                 <div className="project-journey">
                                     <section>
@@ -37,6 +39,10 @@ function Works() {
                                         <p>
                                             Previously inspired by a friend of mine creating a Japan travel blog of their own on a personal website, I decided I would be attempting to create a layout in which I could use in the future to write and format my own travel blog detailing my trip in Japan and South Korea in 2023. This would set the foundation for the blog I intend on fully filling out with a higher level of detail during my free time in the future.
                                         </p>
+
+                                        <div className="image-container">
+                                            <img src={workImage} alt="visual studio code screenshots of code used to make the website." />
+                                        </div>
 
                                         <h2>The Process</h2>
                                         <p>
@@ -53,26 +59,19 @@ function Works() {
                                             Overall, being completed from the ground up with a limited time frame, I found this term project beneficial as it tested my problem solving skills with JavaScript. Furthermore, this term project revolving around responsive design and what elements would look like on different screen sizes was very insightful for me, as it was not a concept I had taken into account previously.
                                         </p>
 
+                                        <div className="image-container">
+                                            <img src={outroImage} alt="a close up of the home page created in this project." />
+                                        </div>
                                     </section>
                                 </div>
-
                             </div>
 
-                            <div class="video-container">
-                                <iframe
-                                    src="https://www.youtube.com/embed/0J2IJiBxSZc?si=tY4YPg7q3PPN_K5s"
-                                    title="YouTube"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen
-                                ></iframe>
+                            <div>
+                                <a class="work-link" href="https://github.com/brndnh/ws-tp" target="_blank" >Link to Project Repository</a>
                             </div>
 
                             <GoBackButton />
                         </section>
-                    </div>
-
-                    <div className="col-2 bg-columns">
                     </div>
                 </div>
             </main>

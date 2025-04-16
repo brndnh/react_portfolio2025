@@ -1,20 +1,19 @@
-import GoBackButton from "../../components/BackButton";
-import homeHeaderImage from '../../assets/home_header.png'
+import headerImage from '../../assets/b250121.png'
 import Breadcrumbs from "../../components/Breadcrumbs";
+import GoBackButton from "../../components/BackButton";
 
-
-function Blog250121() { 
+function Blog250121() {
     return (
         <>
             <main>
                 <div className="container grid">
-                <div className="col-0-sm col-1-md col-2-lg bg-columns">
-                </div>
+                    <div className="col-0-sm col-1-md col-2-lg bg-columns">
+                    </div>
 
-                <div className="col-12 col-10-md col-8-lg">
-                <div className="blog-breadcrumbs"><Breadcrumbs /> {/* Breadcrumbs above header */}</div>
+                    <div className="col-12 col-10-md col-8-lg">
+                        <div className="blog-breadcrumbs"><Breadcrumbs /> {/* Breadcrumbs above header */}</div>
                         <section>
-                            <img class="header-image" src={homeHeaderImage} alt="" />
+                            <img class="header-image header-crop" src={headerImage} alt="" />
                             <h1>I Have Got to Start a Blog! ・ 25/01/21</h1>
                             <p>
                                 It's a Tuesday school afternoon and I'm kinda bored out of my mind, so I decided to finally hit that idea that's been bouncing around in the back of my head for quite some time.
@@ -31,6 +30,8 @@ function Blog250121() {
                             <p>
                                 Some ambitious thoughts from here on. In the future, I've also thought about digital journalling in a different language that I'm learning. Maybe if some of my thoughts are interesting and well expanded on enough when the time is right, I'll also consider creating video essays on YouTube because that's also on my imaginary bucket list of things I want to try!
                             </p>
+
+                            <GoBackButton />
                         </section>
                     </div>
                 </div>

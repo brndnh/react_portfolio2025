@@ -33,7 +33,7 @@ const worksData = [
         tag: "#frontend",
         description: "— Website Creation + Design, Photography",
         year: "2024",
-        navLink: "/Works/travel-blog",
+        navLink: "/works/travel-blog",
     },
     {
         title: "Broye Cafe Mobile App Redesign",
@@ -41,7 +41,7 @@ const worksData = [
         tag: "#uiux",
         description: "— UIUX Case Study, Mobile App UI Redesign",
         year: "2024",
-        navLink: "/Works/uiux-casestudy",
+        navLink: "/works/uiux-casestudy",
     },
     {
         title: "Recreating “Geometry Dash” in Javascript",
@@ -49,7 +49,7 @@ const worksData = [
         tag: "#frontend",
         description: "— Game Design on Web, Animation with JS",
         year: "2023",
-        navLink: "/Works/plausible-game",
+        navLink: "/works/plausible-game",
     },
 ];
 

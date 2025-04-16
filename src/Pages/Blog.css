@@ -29,3 +29,9 @@ section {
     flex-direction: column;
     gap: 20px;
 }
+
+/* used for banner sizing */
+.header-crop {
+    aspect-ratio: 30/8;
+    object-fit: cover;
+}

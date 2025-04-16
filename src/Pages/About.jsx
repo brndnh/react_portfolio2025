@@ -19,20 +19,33 @@ function About() {
                                 <h1>about</h1>
 
                                 <p>
-                                    Having grown up in the neighbourhood of Kensington Cedar Cottage, I am native to <span class="highlighted">Vancouver, BC</span>  and have a Vietnamese/ Chinese background, though I am only fluent in the former. I currently live life as a student at BCIT's downtown campus.
+                                    I would like to describe myself as an introverted individual with a sense of humour (hopefully!) and a passion towards creative works. I have a background in gaming and anime culture, with a growing <span class="highlighted">ambition towards delving deeper into the world of creative works and design</span>.
                                 </p>
 
                                 <p>
-                                    I would like to describe myself as an introverted individual with a sense of humour (hopefully!) and a passion towards creative works. I am a laid back person with a background in gaming and anime culture, with an <span class="highlighted">ambition towards delving deeper into the world of creative works and design</span>. I've always spent a lot of time online, playing competitive games ranging between FPS and rhythm games which by chance and coincidence led me to where I am now.
+                                    I'd like to recognize <span class="highlighted">adaptability</span> as an important trait to have as a person– especially so in a fast paced work environment that is constantly changing. Adaptability to me acts as a packaged bundle– it includes <span class="highlighted">being respectful and open minded towards change and criticism</span>.
+                                </p>
+
+                                <p>
+                                    Though it isn't to an extreme extent, I have grown up shuffling through several different environments in my life. Being able to see the differences between place A to place B, and even cultural differences across the few different places I've been to around the world, <span class="highlighted">I value perspectives</span>; being able to indulge in different experiences only widens my view of the world.
+                                </p>
+
+                                <p>
+                                    I want to try my best to always be a person who is open minded and <span class="highlighted">willing to work with change</span>, establishing a strong sense of communication and trust.
                                 </p>
 
                                 <h2>my skillset</h2>
                                 <SkillSet />
 
                                 <p>
-                                    Throughout my high school years, I spent much of my free time (gaming, and) studying how to use creative tools, and excelled in working with media works such as <span class="highlighted">video editing and photography</span> / photoshop thinking it was only a side hobby.
+                                    I want to be remembered for my displays of (hopefully) memorable works that reflect passion, and my image as a person beyond the screen through good communication.
+
+                                    When you are passionate about what you do, it doesn't feel like work. As someone who is currently studying in the field of creative works and design, I hope to be constantly learning new things and inspiring others with what I am able to output from my studies.
                                 </p>
 
+                                <p>
+                                    Throughout my high school years, I spent much of my free time (gaming, and) studying how to use creative tools, and excelled in working with media works such as <span class="highlighted">video editing and photography</span> / photoshop thinking it was only a side hobby.
+                                </p>
 
                                 <p>
                                     When I realized I had built a foundation of transferable skills (and after a painful year of doing computer science), I decided to make the switch of <span class="highlighted">pursuing my high school passions</span>, leading to what I am doing currently.

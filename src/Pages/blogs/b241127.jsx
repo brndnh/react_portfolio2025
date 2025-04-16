@@ -1,6 +1,6 @@
-import homeHeaderImage from '../../assets/home_header.png'
+import headerImage from '../../assets/b241127.png'
 import Breadcrumbs from "../../components/Breadcrumbs";
-
+import GoBackButton from "../../components/BackButton";
 
 function Blog241127() {
     return (
@@ -13,7 +13,7 @@ function Blog241127() {
                     <div className="col-12 col-10-md col-8-lg">
                         <div className="blog-breadcrumbs"><Breadcrumbs /> {/* Breadcrumbs above header */}</div>
                         <section>
-                            <img class="header-image" src={homeHeaderImage} alt="" />
+                            <img class="header-image header-crop" src={headerImage} alt="" />
                             <h1>Apex Legends is a Bad Game! But Why?</h1>
                             <>
                                 <p>As someone who has been playing the battle royale FPS Apex Legends on and off since 2019, there has been a lot of up and down criticism for the quality of the game and how it feels to play. Something that has been on my mind over the past few months after taking a break from the game is — “Why is Apex Legends not a good game to play?” Despite what people on Reddit may tell you, the answer is actually a lot deeper than it seems.</p>
@@ -33,6 +33,7 @@ function Blog241127() {
                                 <p>This game isn't some “pick of the month” FPS that will die out from bad fundamentals, this is the opposite— a game lovingly crafted with strong fundamentals bogged down by one bad decision after the other.</p>
                             </>
 
+                            <GoBackButton />
                         </section>
                     </div>
                 </div>

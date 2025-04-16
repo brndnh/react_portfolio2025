@@ -22,7 +22,7 @@ function Works() {
                             <hr className="work-divider" />
                             <div className="work-filters">
                                 <nav>
-                                    <ul className="nav-list">
+                                    <ul className="nav-list nav-list-adj">
                                         <li>
                                             <button
                                                 type="button"
