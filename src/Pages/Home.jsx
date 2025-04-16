@@ -23,9 +23,7 @@ function Home() {
 
                             <p>I'd like to consider myself an ambitious individual. I have interests in visual design, motion design, front end web development, fundamentals of UI/UX design, and occasionally dabble in anime style illustration. My current life motto is <span class="highlighted">finding magic in the mundane. </span> </p>
 
-                            <p>I've always spent a lot of time online, playing competitive games ranging between FPS and rhythm games, which partially played a part in influencing the path towards where I am now. </p>
-
-                            <h2>my skillset:</h2>
+                            <h2>my skill set:</h2>
                             <SkillSet />
                         </section>
 
