@@ -80,4 +80,8 @@
         display: none;
     }
 
+    .header-menu {
+        margin-bottom: -30px;
+    }
+
 }
