@@ -36,6 +36,11 @@ function Home() {
 
                             <div classname="works">
                                 <div className="work-year">
+                                    <h3 className="home-year">2025</h3>
+                                    <div className="work-item">
+                                        <strong>AMV Motion Graphic</strong>
+                                        <p>— Animation, Heavy Visual Effects, Compositing</p>
+                                    </div>
                                 </div>
 
                                 <div className="work-year">
