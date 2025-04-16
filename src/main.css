@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-header, footer, main {
+:root {
+    color-scheme: dark;
+}
+
+html {
+    scrollbar-gutter: stable;
+}
+
+header,
+footer,
+main {
     background-color: black;
-    background-image: url("assets/placeholderbg.png");
+    background-image: url("assets/mainbg.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,6 +40,8 @@ body {
 }
 
 img {
+    user-select: none; 
+    height: 100%;
     width: 100%;
 }
 
@@ -59,25 +71,25 @@ h3 {
 }
 
 .divider {
-    width: 50%; 
-    margin: 0 auto; 
-    border: none; 
-    border-top: 2px solid #000; 
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+    border-top: 2px solid #000;
     margin-top: 3vh;
     margin-bottom: 3vh;
 }
 
 .long-divider {
-    width: 80%; 
-    margin: 0 auto; 
-    border: none; 
-    border-top: 1px solid #000; 
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    border-top: 1px solid #000;
     margin-bottom: 1rem;
 }
 
 .work-filters {
-    display: flex;     
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     height: 100%;
     margin-bottom: 1rem;
 }
@@ -156,6 +168,8 @@ h3 {
     grid-column: span 12;
 }
 
+
+/* responsive adjustments */
 @media screen and (min-width: 0px) {
 
     .logo {
@@ -169,7 +183,7 @@ h3 {
     .scroll-to-top {
         display: none;
     }
-    
+
     .col-0-sm {
         display: none;
     }
@@ -224,9 +238,10 @@ h3 {
 
 }
 
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 768px) {
 
-    .col-0-sm, .logo {
+    .col-0-sm,
+    .logo {
         display: block;
     }
 

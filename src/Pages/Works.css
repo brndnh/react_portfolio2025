@@ -1,3 +1,24 @@
+.work-filters {
+    background-color: rgba(230, 173, 173, 0.25);
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li button {
+    transition: color 0.1s ease;
+}
+
+.nav-list li button:hover {
+    color: #EA596F;
+}
+
+/* Active class: highlight in red when selected */
+.nav-list li button.active {
+    transition: color 0.5s ease;
+    color: #EA596F;
+}
+
 .project-card {
     display: flex;
     flex-direction: column;

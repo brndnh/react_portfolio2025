@@ -1,49 +1,11 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router';
 import { ArrowForwardCircleOutline } from 'react-ionicons';
-import firstImage from '../assets/works_cc3.png';
-import secondImage from '../assets/works_responsiveTravel.png';
-import thirdImage from '../assets/works_uiProject.png';
-import fourthImage from '../assets/works_jsProject.png';
+import worksData from '../data/worksData'; // Update the path if needed
 import "./Works.css";
 
 function Works() {
     const [selectedFilter, setSelectedFilter] = useState('all');
-
-    const worksData = [
-        {
-            title: "“BH Cringe Compilation 3”",
-            image: firstImage,
-            tag: "#misc",
-            description: "— Video Direction; Compositing, Effects",
-            year: "2024",
-            navLink: "/works/works_cc3",
-        },
-        {
-            title: "Responsive Travel Blog Page",
-            image: secondImage,
-            tag: "#frontend",
-            description: "— Website Creation + Design, Photography",
-            year: "2024",
-            navLink: "/Works/",
-        },
-        {
-            title: "Broye Cafe Mobile App Redesign",
-            image: thirdImage,
-            tag: "#uiux",
-            description: "— UIUX Case Study, Mobile App UI Redesign",
-            year: "2024",
-            navLink: "/Works/",
-        },
-        {
-            title: "Recreating “Geometry Dash” in Javascript",
-            image: fourthImage,
-            tag: "#frontend",
-            description: "— Game Design on Web, Animation with JS",
-            year: "2023",
-            navLink: "/Works/",
-        },
-    ];
 
     const filteredWorks =
         selectedFilter === 'all'
@@ -110,7 +72,7 @@ function Works() {
                                 </nav>
                             </div>
 
-                            {/* render filtered project cards wrapped in a navlink */}
+                            {/* Render filtered project cards wrapped in a NavLink */}
                             {filteredWorks.map((work, index) => (
                                 <NavLink to={work.navLink} className="project-card-link" key={index}>
                                     <div className="project-card">
@@ -127,7 +89,7 @@ function Works() {
                                             </div>
                                         </div>
 
-                                        {/* arrow placed in a separate, absolute layer */}
+                                        {/* Arrow placed in a separate, absolute layer */}
                                         <div className="arrow-layer">
                                             <ArrowForwardCircleOutline
                                                 color={"#000"}

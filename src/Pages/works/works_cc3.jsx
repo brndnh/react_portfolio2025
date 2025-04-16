@@ -1,4 +1,3 @@
-import firstImage from '../../assets/works_cc3.png';
 import "./../Works.css";
 
 import Breadcrumbs from '../../components/Breadcrumbs';
@@ -25,7 +24,7 @@ function Works() {
                             <div className="">
                                 <div class="video-container">
                                     <iframe
-                                        src="https://www.youtube.com/embed/0J2IJiBxSZc?si=tY4YPg7q3PPN_K5s"
+                                        src="https://www.youtube.com/embed/D_1ePXuG5_Q?si=ewo_uodjtmsGk8Uz"
                                         title="YouTube"
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -72,7 +71,15 @@ function Works() {
                             </div>
 
                             <div className="image-container">
-                                <img src={firstImage} alt="" />
+                            <div class="video-container">
+                                    <iframe
+                                        src="https://www.youtube.com/embed/0J2IJiBxSZc?si=tY4YPg7q3PPN_K5s"
+                                        title="YouTube"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowFullScreen
+                                    ></iframe>
+                                </div>
                             </div>
                             <GoBackButton />
                         </section>

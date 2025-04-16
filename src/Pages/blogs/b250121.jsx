@@ -12,7 +12,7 @@ function Blog250121() {
                 </div>
 
                 <div className="col-12 col-10-md col-8-lg">
-                        <Breadcrumbs /> {/* Breadcrumbs above header */}
+                <div className="blog-breadcrumbs"><Breadcrumbs /> {/* Breadcrumbs above header */}</div>
                         <section>
                             <img class="header-image" src={homeHeaderImage} alt="" />
                             <h1>I Have Got to Start a Blog! ・ 25/01/21</h1>

@@ -10,3 +10,5 @@ to run project:
 
 3. run live server:
     npm run dev
+
+4. (npm run build for upload)

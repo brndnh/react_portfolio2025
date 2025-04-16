@@ -1,9 +1,9 @@
-import ScrollToTop from "../components/ScrollTop";
+import SkillSet from "../components/Skills";
 
 import aboutHeaderImage from "../assets/about_header.png";
-import aboutFirstImage from "../assets/about_neighbourhood.png";
 import aboutSecondImage from "../assets/about_centralpark.png";
 import aboutThirdImage from "../assets/about_roundmirror.png"
+import aboutFooterImage from "../assets/about_header2.png"
 
 function About() {
     return (
@@ -21,13 +21,13 @@ function About() {
                                 <p>
                                     Having grown up in the neighbourhood of Kensington Cedar Cottage, I am native to <span class="highlighted">Vancouver, BC</span>  and have a Vietnamese/ Chinese background, though I am only fluent in the former. I currently live life as a student at BCIT's downtown campus.
                                 </p>
-                                {/* <img src={aboutFirstImage} alt="" /> */}
-                                {/* to replace with slider in the future */}
 
                                 <p>
                                     I would like to describe myself as an introverted individual with a sense of humour (hopefully!) and a passion towards creative works. I am a laid back person with a background in gaming and anime culture, with an <span class="highlighted">ambition towards delving deeper into the world of creative works and design</span>. I've always spent a lot of time online, playing competitive games ranging between FPS and rhythm games which by chance and coincidence led me to where I am now.
                                 </p>
 
+                                <h2>my skillset</h2>
+                                <SkillSet />
 
                                 <p>
                                     Throughout my high school years, I spent much of my free time (gaming, and) studying how to use creative tools, and excelled in working with media works such as <span class="highlighted">video editing and photography</span> / photoshop thinking it was only a side hobby.
@@ -48,9 +48,10 @@ function About() {
 
                                 <img src={aboutThirdImage} alt="" />
 
-                                <p>What does Taito mean? <br></br>
-                                    <strong>台頭 (Taitō) —</strong> rise of; appearance of; raising one's head; coming to power; becoming famous; (being in the) forefront; prominence.
+                                <p>What does taito mean? <br></br>
+                                    <strong>台頭 (taitō) —</strong> rise of; appearance of; raising one's head; coming to power; becoming famous; (being in the) forefront; prominence.
                                 </p>
+                                <img src={aboutFooterImage} alt="" />
                             </section>
                         </div>
                     </div>
