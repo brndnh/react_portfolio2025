@@ -16,8 +16,8 @@ function Works() {
         <main className="about">
             <div className="container">
                 <div className="grid">
-                    <div className="col-1-sm col-2-md col-3-lg bg-columns"></div>
-                    <div className="col-10-sm col-8-md col-6-lg">
+                    <div className="col-1-sm col-2-md col-2-lg bg-columns"></div>
+                    <div className="col-10-sm col-8-md col-8-lg">
                         <section>
                             <hr className="work-divider" />
                             <div className="work-filters">
@@ -73,33 +73,35 @@ function Works() {
                             </div>
 
                             {/* Render filtered project cards wrapped in a NavLink */}
-                            {filteredWorks.map((work, index) => (
-                                <NavLink to={work.navLink} className="project-card-link" key={index}>
-                                    <div className="project-card">
-                                        <div className="image-container">
-                                            <img src={work.image} alt={work.title} />
-                                        </div>
-                                        <div className="card-content">
-                                            <h3 className="title">
-                                                {work.title} <span className="tag">{work.tag}</span>
-                                            </h3>
-                                            <p className="description">{work.description}</p>
-                                            <div className="card-footer">
-                                                <p className="year">{work.year}</p>
+                            <div className="project-grid">
+                                {filteredWorks.map((work, index) => (
+                                    <NavLink to={work.navLink} className="project-card-link" key={index}>
+                                        <div className="project-card">
+                                            <div className="image-container">
+                                                <img src={work.image} alt={work.title} />
+                                            </div>
+                                            <div className="card-content">
+                                                <h3 className="title">
+                                                    {work.title} <span className="tag">{work.tag}</span>
+                                                </h3>
+                                                <p className="description">{work.description}</p>
+                                                <div className="card-footer">
+                                                    <p className="year">{work.year}</p>
+                                                </div>
+                                            </div>
+
+                                            {/* Arrow placed in a separate, absolute layer */}
+                                            <div className="arrow-layer">
+                                                <ArrowForwardCircleOutline
+                                                    color={"#000"}
+                                                    height="50px"
+                                                    width="50px"
+                                                />
                                             </div>
                                         </div>
-
-                                        {/* Arrow placed in a separate, absolute layer */}
-                                        <div className="arrow-layer">
-                                            <ArrowForwardCircleOutline
-                                                color={"#000"}
-                                                height="50px"
-                                                width="50px"
-                                            />
-                                        </div>
-                                    </div>
-                                </NavLink>
-                            ))}
+                                    </NavLink>
+                                ))}
+                            </div>
                         </section>
                     </div>
                 </div>

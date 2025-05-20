@@ -1,3 +1,5 @@
+import Snowfall from "react-snowfall";
+
 import Layout from "./Layout"
 import AlignTop from "./components/AlignTop"
 
@@ -21,7 +23,23 @@ import { Routes, Route } from "react-router"
 function App() {
     return (
         <>
-        <AlignTop/>
+            <div className="background-wrapper">
+                <Snowfall
+                    color="black"
+                    snowflakeCount={100}
+                    style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        zIndex: 1,
+                        pointerEvents: 'none',
+                    }}
+                />
+            </div>
+
+            <AlignTop />
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route path="/" element={<Home />}></Route>

@@ -21,7 +21,7 @@ function Home() {
 
                             <p>Hi! I'm Branden. I go by the username taito online, but feel free to refer me by either name. I have a quite a bit I'd be happy to share with you in the little time we have here, so let me tell you a bit more about myself.</p>
 
-                            <p>I'd like to consider myself an ambitious individual. I have interests in visual design, motion design, front end web development, fundamentals of UI/UX design, and occasionally dabble in anime style illustration. My current life motto is <span class="highlighted">finding magic in the mundane. </span> </p>
+                            <p>I'd like to consider myself an ambitious individual. I have interests in visual & motion design, front end web development, fundamentals of UI/UX design, and occasionally dabble in anime style illustration. My current life motto is <span class="highlighted">finding magic in the mundane. </span> </p>
 
                             <h2>my skill set:</h2>
                             <SkillSet />

@@ -48,14 +48,14 @@ function Header() {
                                         works
                                     </NavLink>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <NavLink
                                         to="/blogs"
                                         className={({ isActive }) => (isActive ? 'active-link' : '')}
                                     >
                                         blogs
                                     </NavLink>
-                                </li>
+                                </li> */}
                             </ul>
                         </nav>
                     </div>
